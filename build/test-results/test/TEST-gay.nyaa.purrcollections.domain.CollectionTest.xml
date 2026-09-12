@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gay.nyaa.purrcollections.domain.CollectionTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-12T11:50:16.315Z" hostname="x270" time="0.007">
+  <properties/>
+  <testcase name="getTier returns correct tier()" classname="gay.nyaa.purrcollections.domain.CollectionTest" time="0.002"/>
+  <testcase name="collection requires material or entityType()" classname="gay.nyaa.purrcollections.domain.CollectionTest" time="0.001"/>
+  <testcase name="maxTier returns highest tier()" classname="gay.nyaa.purrcollections.domain.CollectionTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

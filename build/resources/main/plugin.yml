@@ -1,0 +1,12 @@
+name: PurrCollections
+version: 1.0.0
+main: gay.nyaa.purrcollections.PurrCollectionsPlugin
+api-version: 1.21
+depend: [PurrCore, PurrSkills]
+softdepend: [PurrItems, PurrEconomy]
+
+commands:
+  collection:
+    description: Open collections menu
+    usage: /collection
+    aliases: [collections, c]

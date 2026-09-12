@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gay.nyaa.purrcollections.domain.CollectionRewardTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-09-12T11:50:16.300Z" hostname="x270" time="0.012">
+  <properties/>
+  <testcase name="SkillXP reward creation()" classname="gay.nyaa.purrcollections.domain.CollectionRewardTest" time="0.001"/>
+  <testcase name="StatBonus temporary reward()" classname="gay.nyaa.purrcollections.domain.CollectionRewardTest" time="0.001"/>
+  <testcase name="RecipeUnlock reward creation()" classname="gay.nyaa.purrcollections.domain.CollectionRewardTest" time="0.0"/>
+  <testcase name="ItemReward creation()" classname="gay.nyaa.purrcollections.domain.CollectionRewardTest" time="0.001"/>
+  <testcase name="StatBonus reward creation()" classname="gay.nyaa.purrcollections.domain.CollectionRewardTest" time="0.001"/>
+  <testcase name="rewards are sealed class()" classname="gay.nyaa.purrcollections.domain.CollectionRewardTest" time="0.001"/>
+  <testcase name="CoinReward creation()" classname="gay.nyaa.purrcollections.domain.CollectionRewardTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

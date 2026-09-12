@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gay.nyaa.purrcollections.domain.PlayerCollectionsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-09-12T11:50:16.342Z" hostname="x270" time="0.011">
+  <properties/>
+  <testcase name="withProgress creates new instance()" classname="gay.nyaa.purrcollections.domain.PlayerCollectionsTest" time="0.002"/>
+  <testcase name="player collections with progress()" classname="gay.nyaa.purrcollections.domain.PlayerCollectionsTest" time="0.003"/>
+  <testcase name="multiple collection progress tracking()" classname="gay.nyaa.purrcollections.domain.PlayerCollectionsTest" time="0.001"/>
+  <testcase name="empty player collections()" classname="gay.nyaa.purrcollections.domain.PlayerCollectionsTest" time="0.001"/>
+  <testcase name="withProgress updates existing progress()" classname="gay.nyaa.purrcollections.domain.PlayerCollectionsTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

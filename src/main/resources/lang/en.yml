@@ -1,0 +1,39 @@
+prefix: "&b[PurrCollections] &r"
+
+# Collection types
+collection.type.mining: "Mining"
+collection.type.farming: "Farming"
+collection.type.foraging: "Foraging"
+collection.type.fishing: "Fishing"
+collection.type.combat: "Combat"
+
+# Tier unlock
+collection.tier-unlocked: "&6&lCOLLECTION LEVEL UP &r{collection} &f{tier}"
+collection.progress: "&e{current}/{required}"
+collection.reward: "&a+ {reward}"
+collection.reward-failed: "&cFailed to claim collection rewards. Please try again or contact an administrator."
+collection.economy-unavailable: "&cCoin rewards are unavailable (economy system not loaded)."
+
+# Rewards
+reward.skill-xp: "{amount} {skill} XP"
+reward.recipe-unlock: "Recipe: {item}"
+reward.stat-bonus: "+{value} {stat}"
+reward.item: "{amount}x {item}"
+reward.coins: "{amount} coins"
+
+# Commands
+command.collections.header: "&6Your Collections:"
+command.collections.entry: "&7{collection}: &f{tier} &e({progress})"
+command.collections.other: "&6{player}'s Collections:"
+
+# GUI
+gui.collections.title: "Collections"
+gui.collection.locked: "&cLocked"
+gui.collection.tier: "&eTier {tier}"
+gui.collection.progress: "&7Progress: &e{current}/{required}"
+gui.collection.rewards: "&aRewards:"
+gui.collection.next-tier: "&7Next Tier: &e{amount}"
+
+# Errors
+error.collection-not-found: "&cCollection not found"
+error.player-not-found: "&cPlayer not found"

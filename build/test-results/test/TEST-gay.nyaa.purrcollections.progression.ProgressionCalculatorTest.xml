@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gay.nyaa.purrcollections.progression.ProgressionCalculatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-09-12T11:50:16.362Z" hostname="x270" time="0.008">
+  <properties/>
+  <testcase name="checkTierUnlock returns empty when not enough progress()" classname="gay.nyaa.purrcollections.progression.ProgressionCalculatorTest" time="0.003"/>
+  <testcase name="checkTierUnlock unlocks single tier()" classname="gay.nyaa.purrcollections.progression.ProgressionCalculatorTest" time="0.001"/>
+  <testcase name="calculateProgress returns correct values()" classname="gay.nyaa.purrcollections.progression.ProgressionCalculatorTest" time="0.001"/>
+  <testcase name="checkTierUnlock unlocks multiple tiers at once()" classname="gay.nyaa.purrcollections.progression.ProgressionCalculatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

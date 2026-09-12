@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gay.nyaa.purrcollections.domain.CollectionIdTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2026-09-12T11:50:16.210Z" hostname="x270" time="0.058">
+  <properties/>
+  <testcase name="toString formats correctly()" classname="gay.nyaa.purrcollections.domain.CollectionIdTest" time="0.001"/>
+  <testcase name="parse rejects invalid format - no colon()" classname="gay.nyaa.purrcollections.domain.CollectionIdTest" time="0.005"/>
+  <testcase name="key cannot be blank()" classname="gay.nyaa.purrcollections.domain.CollectionIdTest" time="0.001"/>
+  <testcase name="key must be uppercase()" classname="gay.nyaa.purrcollections.domain.CollectionIdTest" time="0.003"/>
+  <testcase name="namespace cannot be blank()" classname="gay.nyaa.purrcollections.domain.CollectionIdTest" time="0.004"/>
+  <testcase name="namespace rejects invalid characters()" classname="gay.nyaa.purrcollections.domain.CollectionIdTest" time="0.006"/>
+  <testcase name="data class copy works()" classname="gay.nyaa.purrcollections.domain.CollectionIdTest" time="0.001"/>
+  <testcase name="key rejects invalid characters()" classname="gay.nyaa.purrcollections.domain.CollectionIdTest" time="0.004"/>
+  <testcase name="namespace allows underscores and numbers()" classname="gay.nyaa.purrcollections.domain.CollectionIdTest" time="0.001"/>
+  <testcase name="key allows underscores and numbers()" classname="gay.nyaa.purrcollections.domain.CollectionIdTest" time="0.001"/>
+  <testcase name="valid collection id creation()" classname="gay.nyaa.purrcollections.domain.CollectionIdTest" time="0.0"/>
+  <testcase name="parse validates namespace format()" classname="gay.nyaa.purrcollections.domain.CollectionIdTest" time="0.001"/>
+  <testcase name="parse valid string()" classname="gay.nyaa.purrcollections.domain.CollectionIdTest" time="0.001"/>
+  <testcase name="parse rejects invalid format - empty parts()" classname="gay.nyaa.purrcollections.domain.CollectionIdTest" time="0.001"/>
+  <testcase name="parse rejects invalid format - multiple colons()" classname="gay.nyaa.purrcollections.domain.CollectionIdTest" time="0.001"/>
+  <testcase name="namespace must be lowercase()" classname="gay.nyaa.purrcollections.domain.CollectionIdTest" time="0.002"/>
+  <testcase name="parse with numbers()" classname="gay.nyaa.purrcollections.domain.CollectionIdTest" time="0.001"/>
+  <testcase name="data class equality works()" classname="gay.nyaa.purrcollections.domain.CollectionIdTest" time="0.002"/>
+  <testcase name="parse and toString are symmetric()" classname="gay.nyaa.purrcollections.domain.CollectionIdTest" time="0.001"/>
+  <testcase name="parse validates key format()" classname="gay.nyaa.purrcollections.domain.CollectionIdTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

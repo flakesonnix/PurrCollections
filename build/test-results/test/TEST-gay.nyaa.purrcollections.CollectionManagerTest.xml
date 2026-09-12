@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gay.nyaa.purrcollections.CollectionManagerTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-09-12T11:50:13.509Z" hostname="x270" time="1.483">
+  <properties/>
+  <testcase name="increment ignores unloaded player()" classname="gay.nyaa.purrcollections.CollectionManagerTest" time="1.175"/>
+  <testcase name="increment saves recipe unlocks()" classname="gay.nyaa.purrcollections.CollectionManagerTest" time="0.053"/>
+  <testcase name="unloadPlayerCollections clears cache()" classname="gay.nyaa.purrcollections.CollectionManagerTest" time="0.023"/>
+  <testcase name="hasUnlockedRecipe delegates to handler()" classname="gay.nyaa.purrcollections.CollectionManagerTest" time="0.017"/>
+  <testcase name="increment adds to existing progress()" classname="gay.nyaa.purrcollections.CollectionManagerTest" time="0.014"/>
+  <testcase name="increment ignores unknown collection()" classname="gay.nyaa.purrcollections.CollectionManagerTest" time="0.026"/>
+  <testcase name="increment handles reward execution failure()" classname="gay.nyaa.purrcollections.CollectionManagerTest" time="0.019"/>
+  <testcase name="loadPlayerCollections loads from repository()" classname="gay.nyaa.purrcollections.CollectionManagerTest" time="0.03"/>
+  <testcase name="getPlayerCollections returns null for unloaded player()" classname="gay.nyaa.purrcollections.CollectionManagerTest" time="0.017"/>
+  <testcase name="increment unlocks tier when threshold reached()" classname="gay.nyaa.purrcollections.CollectionManagerTest" time="0.035"/>
+  <testcase name="increment creates new collection progress()" classname="gay.nyaa.purrcollections.CollectionManagerTest" time="0.018"/>
+  <testcase name="increment unlocks multiple tiers at once()" classname="gay.nyaa.purrcollections.CollectionManagerTest" time="0.03"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+WARNING: A Java agent has been loaded dynamically (/home/lucy/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.17/e3c251a39dc90badaf71c83427ba46840f219d8d/byte-buddy-agent-1.14.17.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

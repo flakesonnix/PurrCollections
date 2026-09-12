@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gay.nyaa.purrcollections.domain.CollectionProgressTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-09-12T11:50:16.271Z" hostname="x270" time="0.026">
+  <properties/>
+  <testcase name="withGathered adds amount()" classname="gay.nyaa.purrcollections.domain.CollectionProgressTest" time="0.0"/>
+  <testcase name="withTier updates tier()" classname="gay.nyaa.purrcollections.domain.CollectionProgressTest" time="0.014"/>
+  <testcase name="totalGathered cannot be negative()" classname="gay.nyaa.purrcollections.domain.CollectionProgressTest" time="0.002"/>
+  <testcase name="valid progress creation()" classname="gay.nyaa.purrcollections.domain.CollectionProgressTest" time="0.001"/>
+  <testcase name="currentTier cannot be negative()" classname="gay.nyaa.purrcollections.domain.CollectionProgressTest" time="0.001"/>
+  <testcase name="progress is immutable()" classname="gay.nyaa.purrcollections.domain.CollectionProgressTest" time="0.001"/>
+  <testcase name="zero tier is valid for new collection()" classname="gay.nyaa.purrcollections.domain.CollectionProgressTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

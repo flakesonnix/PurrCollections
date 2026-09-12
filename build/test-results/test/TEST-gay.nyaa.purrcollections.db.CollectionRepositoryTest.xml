@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gay.nyaa.purrcollections.db.CollectionRepositoryTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-09-12T11:50:15.680Z" hostname="x270" time="0.523">
+  <properties/>
+  <testcase name="migrate SQL contains expected table structure()" classname="gay.nyaa.purrcollections.db.CollectionRepositoryTest" time="0.334"/>
+  <testcase name="loadPlayerCollections handles multiple collections()" classname="gay.nyaa.purrcollections.db.CollectionRepositoryTest" time="0.028"/>
+  <testcase name="migrate creates tables()" classname="gay.nyaa.purrcollections.db.CollectionRepositoryTest" time="0.016"/>
+  <testcase name="saveRecipeUnlock inserts new unlock()" classname="gay.nyaa.purrcollections.db.CollectionRepositoryTest" time="0.014"/>
+  <testcase name="repository handles database connection properly()" classname="gay.nyaa.purrcollections.db.CollectionRepositoryTest" time="0.009"/>
+  <testcase name="loadPlayerCollections returns existing progress()" classname="gay.nyaa.purrcollections.db.CollectionRepositoryTest" time="0.017"/>
+  <testcase name="loadRecipeUnlocks returns existing unlocks()" classname="gay.nyaa.purrcollections.db.CollectionRepositoryTest" time="0.014"/>
+  <testcase name="saveProgress updates existing progress()" classname="gay.nyaa.purrcollections.db.CollectionRepositoryTest" time="0.008"/>
+  <testcase name="loadRecipeUnlocks returns empty for new player()" classname="gay.nyaa.purrcollections.db.CollectionRepositoryTest" time="0.008"/>
+  <testcase name="saveRecipeUnlock handles conflict (idempotency)()" classname="gay.nyaa.purrcollections.db.CollectionRepositoryTest" time="0.009"/>
+  <testcase name="saveProgress inserts new progress()" classname="gay.nyaa.purrcollections.db.CollectionRepositoryTest" time="0.025"/>
+  <testcase name="loadPlayerCollections returns empty for new player()" classname="gay.nyaa.purrcollections.db.CollectionRepositoryTest" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

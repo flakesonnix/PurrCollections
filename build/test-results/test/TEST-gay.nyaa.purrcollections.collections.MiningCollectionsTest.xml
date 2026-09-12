@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gay.nyaa.purrcollections.collections.MiningCollectionsTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-09-12T11:50:15.029Z" hostname="x270" time="0.034">
+  <properties/>
+  <testcase name="coal tier 2 gives more xp()" classname="gay.nyaa.purrcollections.collections.MiningCollectionsTest" time="0.001"/>
+  <testcase name="coal tier 3 gives fortune bonus()" classname="gay.nyaa.purrcollections.collections.MiningCollectionsTest" time="0.001"/>
+  <testcase name="all collections have unique IDs()" classname="gay.nyaa.purrcollections.collections.MiningCollectionsTest" time="0.001"/>
+  <testcase name="coal collection is properly defined()" classname="gay.nyaa.purrcollections.collections.MiningCollectionsTest" time="0.001"/>
+  <testcase name="cobblestone tier 3 gives stat bonus()" classname="gay.nyaa.purrcollections.collections.MiningCollectionsTest" time="0.001"/>
+  <testcase name="all returns all mining collections()" classname="gay.nyaa.purrcollections.collections.MiningCollectionsTest" time="0.001"/>
+  <testcase name="all collections have valid materials()" classname="gay.nyaa.purrcollections.collections.MiningCollectionsTest" time="0.002"/>
+  <testcase name="cobblestone tier 4 gives mining fortune()" classname="gay.nyaa.purrcollections.collections.MiningCollectionsTest" time="0.001"/>
+  <testcase name="all collections have at least one tier()" classname="gay.nyaa.purrcollections.collections.MiningCollectionsTest" time="0.003"/>
+  <testcase name="coal tier 1 gives skill xp()" classname="gay.nyaa.purrcollections.collections.MiningCollectionsTest" time="0.001"/>
+  <testcase name="cobblestone tier 1 gives skill xp()" classname="gay.nyaa.purrcollections.collections.MiningCollectionsTest" time="0.001"/>
+  <testcase name="cobblestone collection is properly defined()" classname="gay.nyaa.purrcollections.collections.MiningCollectionsTest" time="0.001"/>
+  <testcase name="all collections are MINING type()" classname="gay.nyaa.purrcollections.collections.MiningCollectionsTest" time="0.001"/>
+  <testcase name="cobblestone tiers are progressive()" classname="gay.nyaa.purrcollections.collections.MiningCollectionsTest" time="0.004"/>
+  <testcase name="cobblestone tier 2 unlocks recipe()" classname="gay.nyaa.purrcollections.collections.MiningCollectionsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

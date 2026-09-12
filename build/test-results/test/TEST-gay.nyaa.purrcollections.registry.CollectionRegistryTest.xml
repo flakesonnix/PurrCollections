@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gay.nyaa.purrcollections.registry.CollectionRegistryTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-09-12T11:50:16.373Z" hostname="x270" time="0.508">
+  <properties/>
+  <testcase name="get returns null for unregistered collection()" classname="gay.nyaa.purrcollections.registry.CollectionRegistryTest" time="0.001"/>
+  <testcase name="getByMaterial returns correct collection()" classname="gay.nyaa.purrcollections.registry.CollectionRegistryTest" time="0.001"/>
+  <testcase name="register and get collection()" classname="gay.nyaa.purrcollections.registry.CollectionRegistryTest" time="0.0"/>
+  <testcase name="getByEntityType returns correct collection()" classname="gay.nyaa.purrcollections.registry.CollectionRegistryTest" time="0.502"/>
+  <testcase name="getByType returns collections of type()" classname="gay.nyaa.purrcollections.registry.CollectionRegistryTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

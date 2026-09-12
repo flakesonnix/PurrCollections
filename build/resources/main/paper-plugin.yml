@@ -1,0 +1,41 @@
+name: PurrCollections
+version: '1.0.0'
+main: gay.nyaa.purrcollections.PurrCollectionsPlugin
+api-version: '1.21'
+description: SkyBlock-inspired collection progression system with tier unlocks and rewards
+prefix: PurrCollections
+author: flakesonnix
+website: https://github.com/flakesonnix/PurrCollections
+
+dependencies:
+  server:
+    PurrCore:
+      load: BEFORE
+      required: true
+      join-classpath: true
+    PurrSkills:
+      load: BEFORE
+      required: true
+      join-classpath: true
+    PurrItems:
+      load: BEFORE
+      required: true
+      join-classpath: true
+
+permissions:
+  purrcollections.view:
+    description: View your own collections
+    default: true
+  purrcollections.view.others:
+    description: View other players' collections
+    default: op
+  purrcollections.admin:
+    description: Admin commands
+    default: op
+
+commands:
+  collections:
+    description: View your collections
+    usage: /collections [player]
+    permission: purrcollections.view
+    permission-message: You don't have permission!

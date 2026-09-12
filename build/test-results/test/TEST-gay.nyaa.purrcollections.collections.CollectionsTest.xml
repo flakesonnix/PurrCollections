@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gay.nyaa.purrcollections.collections.CollectionsTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-09-12T11:50:15Z" hostname="x270" time="0.025">
+  <properties/>
+  <testcase name="all collections have display names()" classname="gay.nyaa.purrcollections.collections.CollectionsTest" time="0.007"/>
+  <testcase name="all collections have unique IDs()" classname="gay.nyaa.purrcollections.collections.CollectionsTest" time="0.001"/>
+  <testcase name="all returns collections from all sources()" classname="gay.nyaa.purrcollections.collections.CollectionsTest" time="0.001"/>
+  <testcase name="collections include mining collections()" classname="gay.nyaa.purrcollections.collections.CollectionsTest" time="0.001"/>
+  <testcase name="all collections have valid types()" classname="gay.nyaa.purrcollections.collections.CollectionsTest" time="0.001"/>
+  <testcase name="all tier requirements are positive and progressive()" classname="gay.nyaa.purrcollections.collections.CollectionsTest" time="0.004"/>
+  <testcase name="all collections have either material or entity type()" classname="gay.nyaa.purrcollections.collections.CollectionsTest" time="0.002"/>
+  <testcase name="all collections have at least one tier()" classname="gay.nyaa.purrcollections.collections.CollectionsTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

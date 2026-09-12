@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gay.nyaa.purrcollections.rewards.RewardExecutorTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-09-12T11:50:17.061Z" hostname="x270" time="1.88">
+  <properties/>
+  <testcase name="execute CoinReward fails when economy returns error()" classname="gay.nyaa.purrcollections.rewards.RewardExecutorTest" time="0.583"/>
+  <testcase name="formatReward includes amount for ItemReward()" classname="gay.nyaa.purrcollections.rewards.RewardExecutorTest" time="0.886"/>
+  <testcase name="execute RecipeUnlock reward succeeds()" classname="gay.nyaa.purrcollections.rewards.RewardExecutorTest" time="0.015"/>
+  <testcase name="execute CoinReward fails when economy unavailable()" classname="gay.nyaa.purrcollections.rewards.RewardExecutorTest" time="0.015"/>
+  <testcase name="execute multiple rewards all succeed()" classname="gay.nyaa.purrcollections.rewards.RewardExecutorTest" time="0.044"/>
+  <testcase name="execute StatBonus reward succeeds()" classname="gay.nyaa.purrcollections.rewards.RewardExecutorTest" time="0.012"/>
+  <testcase name="formatReward includes amount for CoinReward()" classname="gay.nyaa.purrcollections.rewards.RewardExecutorTest" time="0.015"/>
+  <testcase name="formatReward includes item id for RecipeUnlock()" classname="gay.nyaa.purrcollections.rewards.RewardExecutorTest" time="0.008"/>
+  <testcase name="execute empty rewards list succeeds()" classname="gay.nyaa.purrcollections.rewards.RewardExecutorTest" time="0.007"/>
+  <testcase name="execute SkillXP reward succeeds()" classname="gay.nyaa.purrcollections.rewards.RewardExecutorTest" time="0.009"/>
+  <testcase name="formatReward includes stat info for StatBonus()" classname="gay.nyaa.purrcollections.rewards.RewardExecutorTest" time="0.009"/>
+  <testcase name="execute CoinReward succeeds()" classname="gay.nyaa.purrcollections.rewards.RewardExecutorTest" time="0.01"/>
+  <testcase name="execute returns false when one reward fails()" classname="gay.nyaa.purrcollections.rewards.RewardExecutorTest" time="0.008"/>
+  <testcase name="formatReward includes skill name for SkillXP()" classname="gay.nyaa.purrcollections.rewards.RewardExecutorTest" time="0.008"/>
+  <testcase name="execute ItemReward fails when PurrItems unavailable()" classname="gay.nyaa.purrcollections.rewards.RewardExecutorTest" time="0.213"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
