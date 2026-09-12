@@ -1,6 +1,7 @@
 plugins {
     kotlin("jvm") version "2.1.0"
-    id("com.github.johnrengelman.shadow") version "8.1.1"
+    // Shadow removed — manual fatJar used to avoid ASM 65 issue (shadow 8.1.1 can't read Java 21).
+    // If you want relocation/minimize, add org.gradle.shadow 8.3.x + re-enable the shadow block below.
 }
 
 group = "gay.nyaa"
@@ -30,15 +31,23 @@ dependencies {
     testImplementation(files("../PurrEconomy/build/libs/purreconomy-1.0.0.jar"))
 }
 
+// Manual fatJar — bundles runtimeClasspath (kotlin stdlib) without shadow ASM.
+// No relocation/minimize (add shadow 8.3.x if you need them).
+val shadowJar by tasks.registering(Jar::class) {
+    archiveBaseName.set("PurrCollections")
+    archiveClassifier.set("")
+    archiveVersion.set("1.0.0")
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    from(sourceSets.main.get().output)
+    dependsOn(configurations.runtimeClasspath)
+    from({
+        configurations.runtimeClasspath.get()
+            .filter { it.name.endsWith("jar") }
+            .map { zipTree(it) }
+    })
+}
+
 tasks {
-    shadowJar {
-        archiveBaseName.set("PurrCollections")
-        archiveClassifier.set("")
-        archiveVersion.set("1.0.0")
-
-        minimize()
-    }
-
     build {
         dependsOn(shadowJar)
     }
