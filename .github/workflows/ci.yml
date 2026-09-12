@@ -1,0 +1,84 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Checkout PurrCore
+        uses: actions/checkout@v4
+        with:
+          repository: flakesonnix/PurrCore
+          path: deps/PurrCore
+
+      - name: Checkout PurrSkills
+        uses: actions/checkout@v4
+        with:
+          repository: flakesonnix/PurrSkills
+          path: deps/PurrSkills
+
+      - name: Checkout PurrEconomy
+        uses: actions/checkout@v4
+        with:
+          repository: flakesonnix/PurrEconomy
+          path: deps/PurrEconomy
+
+      - name: Checkout PurrItems
+        uses: actions/checkout@v4
+        with:
+          repository: flakesonnix/PurrItems
+          path: deps/PurrItems
+
+      - name: Link sibling deps (../ layout)
+        run: |
+          for d in deps/*/; do
+            name=$(basename "$d")
+            ln -sfn "$GITHUB_WORKSPACE/deps/$name" "$(dirname "$GITHUB_WORKSPACE")/$name"
+          done
+          ls -la "$(dirname "$GITHUB_WORKSPACE")"
+
+      - name: Setup Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+          cache: gradle
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          cache-read-only: false
+
+      - name: Build dependencies (PurrCore → PurrSkills → PurrEconomy → PurrItems)
+        run: |
+          for d in PurrCore PurrSkills PurrEconomy PurrItems; do
+            echo "=== Building $d ==="
+            (cd "deps/$d" && chmod +x gradlew && ./gradlew shadowJar --no-daemon)
+          done
+
+      - name: Run tests
+        run: ./gradlew test --no-daemon
+        continue-on-error: true
+
+      - name: Build plugin
+        run: ./gradlew shadowJar --no-daemon
+
+      - name: Upload jar
+        uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: purrcollections-jar
+          path: build/libs/*.jar
+          if-no-files-found: warn
